@@ -1,0 +1,108 @@
+*{
+    font-family: "Century Gothic";
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #E6EBDB;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 1rem;
+    overflow-x: hidden;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+/*Navigation----------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------*/
+.homebutton{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    /*text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+
+.active {
+    color: #004A4A; !important;
+}
+
+.homebutton:hover {
+    color: #004A4A;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+
+.title{
+    font-size: 3.2vw;
+    font-weight: bold;
+    color: #036666;
+}
+
+.navContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.navContainer_container{
+    font-size: 1.3vw;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+    max-width: fit-content;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.navContainer_row{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navContainer_pictureContainer{
+    display: flex;
+    align-items: center;
+}
+
+.navContainer_pictureContainer_picture{
+    width: 2.5rem;
+    height: 2rem;
+    border-radius: 6px;
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+.socials{
+    width: 5vw;
+    margin-left: 1vw;
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    .hamburger-menu{
+        display: none;
+    }
+    .containerTopbar{
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .navContainer{
+        display: none;
+    }
+    body{
+        margin: 0;
+    }
+
+    /*----------------------------------------------------------------------------------------------------*/
+
+}
+
